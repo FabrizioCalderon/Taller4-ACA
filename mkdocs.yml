@@ -1,0 +1,22 @@
+site_name: Documentación de Mi Proyecto
+site_description: Sitio creado con MkDocs y Material for MkDocs
+site_author: Tu Nombre
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+
+nav:
+  - Inicio: index.md
+  - Instalación: instalacion.md
+  - Uso: uso.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
